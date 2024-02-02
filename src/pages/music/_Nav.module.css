@@ -1,0 +1,35 @@
+.root {
+  background-color: #6842E0;
+  padding: 0.5rem;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.root::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #6842E0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  color: white;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+
+.searchIcon:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,20 @@
+.root {
+  height: 100%;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  background-color: #6842E0;
+  padding: 1rem;
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  align-items: center;
+}
+
+.logoWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

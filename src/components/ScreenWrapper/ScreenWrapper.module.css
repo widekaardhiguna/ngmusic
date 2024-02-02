@@ -1,0 +1,12 @@
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.child {
+  width: min(100vw, 400px);
+  height: min(100vh, 800px); 
+  overflow: auto;
+}
