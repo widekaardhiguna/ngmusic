@@ -1,8 +1,13 @@
 How to start development server :
 
-```js
-npm i
-npm run dev
-```
+- clone the project
+- install dependency by using command :
+  ```js
+  npm i
+  ```
+- start local server by using command :
+  ```js
+  npm run dev
+  ```
 
 
